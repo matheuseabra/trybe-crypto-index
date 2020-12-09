@@ -18,7 +18,6 @@ export default function Home() {
       });
       const { bpi } = response.data;
       setCurrencies(Object.values(bpi).filter(({ code }) => code !== 'BTC'));
-      console.log({ bpi, currencies });
     };
     fetchBTCPrice();
   }, []);
