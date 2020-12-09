@@ -11,7 +11,7 @@ $ git clone https://github.com/matheuseabra/trybe-crypto-index
 $ cd trybe-crypto-index
 ```
 
-Intall dependencies and start server in development mode:
+Install dependencies and start server in development mode:
 
 ```
 $ cd server
@@ -24,7 +24,7 @@ $ cd ../client
 $ npm i && npm run dev
 ```
 
-Open the browser at (http://localhost:3000)[http://localhost:3000] to view the client app in the browser.
+Open the browser at http://localhost:3000 to view the client app in the browser.
 
 The page will reload if you make edits. You will also see any lint errors in the console.
 
@@ -58,14 +58,14 @@ $ npm test
 - supertest
 
 ## Improvements
-  - Setup CI/CD such as (CircleCI)[https://circleci.com/] or (GitHub Actions)[https://github.com/features/actions]
+  - Setup CI/CD such as [CircleCI](https://circleci.com/) or [GitHub Actions](https://github.com/features/actions).
   - "Dockerize" client and server for deployment.
   - Add API documentation with [swagger-express-ts](https://github.com/olivierlsc/swagger-express-ts).
-  - Add dependency injection of services into controllers with (inversify)[https://www.npmjs.com/package/inversify].
-  - Refactor to Domain-driven approach in order to modularize the architecture by features.
+  - Add Dependency Injection  with [inversify](https://www.npmjs.com/package/inversify).
+  - Refactor to Domain-Driven approach in order to modularize the architecture by features.
 
 
 ## Lincense
 
-This project is lincensed under the GNU General Public License v3.0
+This project is lincensed under the GNU General Public License v3.0.
 
