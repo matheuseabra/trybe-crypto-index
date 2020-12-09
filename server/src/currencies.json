@@ -1,0 +1,14 @@
+{
+  "BRL": {
+    "rate": "12",
+    "description": "Brazilian Real"
+  },
+  "EUR": {
+    "rate": "12",
+    "description": "Euro"
+  },
+  "CAD": {
+    "rate": "12",
+    "description": "Canadian Dollar"
+  }
+}
